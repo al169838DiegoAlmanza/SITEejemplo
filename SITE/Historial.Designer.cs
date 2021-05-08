@@ -133,9 +133,9 @@ namespace SITE
             this.BtnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnProductos.Location = new System.Drawing.Point(28, 407);
             this.BtnProductos.Name = "BtnProductos";
-            this.BtnProductos.Size = new System.Drawing.Size(143, 50);
+            this.BtnProductos.Size = new System.Drawing.Size(156, 50);
             this.BtnProductos.TabIndex = 7;
-            this.BtnProductos.Text = "Productos";
+            this.BtnProductos.Text = "Inventario";
             this.BtnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnProductos.UseVisualStyleBackColor = false;
