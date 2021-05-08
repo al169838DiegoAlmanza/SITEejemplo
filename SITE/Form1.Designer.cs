@@ -31,12 +31,18 @@ namespace SITE
         {
             this.pnl1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnProducto = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btnProveedores = new System.Windows.Forms.Button();
             this.pnl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl1
             // 
             this.pnl1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.pnl1.Controls.Add(this.btnProveedores);
+            this.pnl1.Controls.Add(this.btn1);
+            this.pnl1.Controls.Add(this.btnProducto);
             this.pnl1.Controls.Add(this.label1);
             this.pnl1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.pnl1.Location = new System.Drawing.Point(-2, -2);
@@ -54,6 +60,33 @@ namespace SITE
             this.label1.Size = new System.Drawing.Size(58, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "SITE";
+            // 
+            // btnProducto
+            // 
+            this.btnProducto.Location = new System.Drawing.Point(63, 92);
+            this.btnProducto.Name = "btnProducto";
+            this.btnProducto.Size = new System.Drawing.Size(75, 23);
+            this.btnProducto.TabIndex = 1;
+            this.btnProducto.Text = "Inventario";
+            this.btnProducto.UseVisualStyleBackColor = true;
+            // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(63, 176);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(75, 23);
+            this.btn1.TabIndex = 2;
+            this.btn1.Text = "Venta";
+            this.btn1.UseVisualStyleBackColor = true;
+            // 
+            // btnProveedores
+            // 
+            this.btnProveedores.Location = new System.Drawing.Point(63, 276);
+            this.btnProveedores.Name = "btnProveedores";
+            this.btnProveedores.Size = new System.Drawing.Size(75, 23);
+            this.btnProveedores.TabIndex = 3;
+            this.btnProveedores.Text = "Proveedores";
+            this.btnProveedores.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -73,6 +106,9 @@ namespace SITE
 
         private System.Windows.Forms.Panel pnl1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btnProducto;
+        private System.Windows.Forms.Button btnProveedores;
     }
 }
 
