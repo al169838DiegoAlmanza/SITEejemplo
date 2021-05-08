@@ -17,7 +17,7 @@ namespace SITE
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Venta());
+            Application.Run(new Venta()); //aqui se indica que pantalla se va a utilizar primero
         }
     }
 }
