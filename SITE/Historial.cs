@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SITE
 {
-    public partial class HistorialVenta : Form
+    public partial class Historial : Form
     {
-        public HistorialVenta()
+        public Historial()
         {
             InitializeComponent();
         }

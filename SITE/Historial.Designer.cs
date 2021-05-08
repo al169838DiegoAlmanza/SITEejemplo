@@ -1,7 +1,7 @@
 ﻿
 namespace SITE
 {
-    partial class HistorialVenta
+    partial class Historial
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace SITE
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HistorialVenta));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Historial));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.PicLogo = new System.Windows.Forms.PictureBox();
             this.BtnSalir = new System.Windows.Forms.Button();
