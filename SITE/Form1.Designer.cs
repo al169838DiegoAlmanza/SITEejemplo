@@ -74,7 +74,7 @@ namespace SITE
             this.btnProducto.Name = "btnProducto";
             this.btnProducto.Size = new System.Drawing.Size(75, 23);
             this.btnProducto.TabIndex = 1;
-            this.btnProducto.Text = "HISTORIAL";
+            this.btnProducto.Text = "historial";
             this.btnProducto.UseVisualStyleBackColor = true;
             // 
             // label1
