@@ -62,6 +62,7 @@ namespace SITE
             this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // BtnProveedores
             // 
@@ -81,6 +82,7 @@ namespace SITE
             this.BtnProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnProveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnProveedores.UseVisualStyleBackColor = false;
+            this.BtnProveedores.Click += new System.EventHandler(this.BtnProveedores_Click);
             // 
             // BtnHistorial
             // 
@@ -120,6 +122,7 @@ namespace SITE
             this.BtnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnProductos.UseVisualStyleBackColor = false;
+            this.BtnProductos.Click += new System.EventHandler(this.BtnProductos_Click);
             // 
             // BtnVentas
             // 
@@ -137,6 +140,7 @@ namespace SITE
             this.BtnVentas.Text = "Ventas";
             this.BtnVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnVentas.UseVisualStyleBackColor = false;
+            this.BtnVentas.Click += new System.EventHandler(this.BtnVentas_Click);
             // 
             // panelMenu
             // 
@@ -196,6 +200,7 @@ namespace SITE
             this.Controls.Add(this.panelMenu);
             this.Name = "Venta";
             this.Text = "Ventas";
+            this.Load += new System.EventHandler(this.Venta_Load);
             this.panelMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).EndInit();
             this.panel2.ResumeLayout(false);

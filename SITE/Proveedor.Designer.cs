@@ -220,6 +220,7 @@ namespace SITE
             this.Controls.Add(this.panelMenu);
             this.Name = "Proveedor";
             this.Text = "Proveedor";
+            this.Load += new System.EventHandler(this.Proveedor_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panelMenu.ResumeLayout(false);

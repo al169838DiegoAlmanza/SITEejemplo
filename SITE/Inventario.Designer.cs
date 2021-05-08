@@ -195,6 +195,7 @@ namespace SITE
             this.Controls.Add(this.panelMenu);
             this.Name = "Inventario";
             this.Text = "Inventario";
+            this.Load += new System.EventHandler(this.Inventario_Load);
             this.panelMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).EndInit();
             this.panel2.ResumeLayout(false);
