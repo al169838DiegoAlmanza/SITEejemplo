@@ -16,5 +16,14 @@ namespace SITE
         {
             InitializeComponent();
         }
+
+        private void BtnHistorial_Click(object sender, EventArgs e)
+        {
+            //se cierra la ventana actual
+            this.Hide();
+            //se abre la pantalla de historial
+            Historial historial = new Historial();
+            historial.Show();
+        }
     }
 }

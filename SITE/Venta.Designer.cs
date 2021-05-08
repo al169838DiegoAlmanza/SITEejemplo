@@ -100,6 +100,7 @@ namespace SITE
             this.BtnHistorial.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnHistorial.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnHistorial.UseVisualStyleBackColor = false;
+            this.BtnHistorial.Click += new System.EventHandler(this.BtnHistorial_Click);
             // 
             // BtnProductos
             // 
